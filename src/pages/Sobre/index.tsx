@@ -6,7 +6,7 @@ import {NavLink} from "react-router-dom";
 export default function Sobre() {
   return (
     <MenuBar>
-      <section className="h-5/6 flex flex-col justify-center items-center p-3">
+      <section className="flex flex-col justify-center items-center p-3">
         <h1 className="font-black text-4xl text-center mt-16 px-3">
           <span className="text-[#FFBD59]">Adote</span> um amigo peludo:
           <br></br> Encontre o amor incondicional que você procura!

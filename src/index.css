@@ -135,3 +135,7 @@ table {
 input {
   outline: none;
 }
+
+#root {
+  height: 100vh;
+}

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 export default function MenuBar({ children }: any) {
   return (
     <>
-      <header className="flex flex-row justify-between items-center mx-14 mt-8">
+      <header className="flex flex-row justify-between items-center mx-14 h-16">
         <NavLink to="/teste">
           <div className="flex flex-row items-center gap-3">
             <img src={petLogo} />
@@ -43,7 +43,7 @@ export default function MenuBar({ children }: any) {
           </button>
         </div>
       </header>
-      {children}
+        {children}
     </>
   );
 }
