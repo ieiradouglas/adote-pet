@@ -6,7 +6,7 @@ export default function PetCard({ key, onClick, foto, nome, idade, sexo }) {
       className="border-solid border p-3 bg-[#FFBD59] text-black hover:cursor-pointer duration-150 flex-1 max-w-[300px]"
       onClick={onClick}
     >
-      <div className=" max-w-[280px] flex justify-center">
+      <div className=" max-w-[280px] max-h-[180px] flex justify-center">
         <img
           className="w-full"
           src={`https://mwwsnvgxqqjdzzbsnmtk.supabase.co/storage/v1/object/public/pets/${foto}`}

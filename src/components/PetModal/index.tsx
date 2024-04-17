@@ -34,17 +34,17 @@ export default function PetModal({
   }
 
   return (
-    <div className="w-screen h-screen absolute flex justify-center items-center bg-[RGBA(0,0,0,0.7)]">
-      <section className="flex flex-col items-center bg-[#FFBD59] p-5 w-full max-w-[600px] border-solid border-[10px] rounded-md border-white">
+    <div className="w-full min-h-full absolute flex justify-center items-center bg-[RGBA(0,0,0,0.7)]">
+      <section className="flex flex-col items-center bg-[#FFBD59] p-5 w-full max-w-[600px]  border-solid border-[10px] rounded-md border-white my-5">
         <img
           className="relative top-0 left-60 font-bold max-w-[40px] hover:cursor-pointer hover:scale-110 duration-150"
           src={closeIcon}
           onClick={onClick}
         />
         <h2 className="font-black text-3xl mb-5">{nome}</h2>
-        <div className="border-solid border-2 max-w-[280px]">
+        <div className="border-solid border-2 w-full max-w-[280px]">
           <img
-            className="w-full"
+            className="w-full max-h-[180px]"
             src={`https://mwwsnvgxqqjdzzbsnmtk.supabase.co/storage/v1/object/public/pets/${foto}`}
           />
         </div>
